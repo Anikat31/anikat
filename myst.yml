@@ -1,0 +1,18 @@
+version: 1
+site:
+  title: Anikat Kankaria
+  options:
+    favicon: favicon.ico
+    logo: icts-logo-2.png
+    logo_text: Anikat Kankaria
+    assets:
+      stylesheets:
+        - assets/css/style.css
+  template: book-theme
+exports:
+  - format: pdf
+    template: arxiv_two_column
+    article: my-markdown-file.md
+    output: exports/my-document.pdf
+project:
+  id: 56e7bdd4-7429-4ef6-b075-0a4023a12bba
